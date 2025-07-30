@@ -26,5 +26,14 @@ Supports directed and undirected graphs, edge weights, and light/dark mode.
 - **Offline:** Open `index.html` in your browser
 - **Online:** Deploy on GitHub Pages
 
+## 📁 Project structure
+The HTML file resides in the project root. Styles and scripts are placed in
+`css/` and `js/` directories respectively:
+
+```
+css/style.css
+js/script.js
+```
+
 ## 📜 License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
