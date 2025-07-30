@@ -25,6 +25,7 @@ Supports directed and undirected graphs, edge weights, and light/dark mode.
 ## 🚀 How to run
 - **Offline:** Open `index.html` in your browser
 - **Online:** Deploy on GitHub Pages
+- **With Flask:** install dependencies from `requirements.txt` and run `python app.py` to start a local server at http://127.0.0.1:5000/
 
 ## 📜 License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
