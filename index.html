@@ -1,1 +1,36 @@
-<!DOCTYPE html><html><head><title>Graph Project</title></head><body><h1>Graph Builder Tool</h1></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Граф + Таблица смежности</h1>
+        <button id="toggle-theme">🌙/☀️</button>
+    </header>
+
+    <main>
+        <section id="table-section">
+            <label>Количество вершин: 
+                <input type="number" id="vertex-count" min="2" value="5">
+                <button id="generate-table">Сгенерировать таблицу</button>
+            </label>
+            <div id="adjacency-table"></div>
+            <label>
+                <input type="checkbox" id="directed"> Ориентированный граф
+            </label>
+        </section>
+
+        <section id="graph-section">
+            <div id="graph-container"></div>
+            <button id="build-graph">Построить граф</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
